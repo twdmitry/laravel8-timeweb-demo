@@ -25,7 +25,6 @@ class AdminAuthController extends Controller
                 session(['is_admin' => true]); // Сохраняем информацию о том, что пользователь админ
                 return redirect()->route('admin.news.create')->with('success', 'Вы успешно вошли в админку!');
             } else {
-            // dd($user);
             Auth::logout();
             return redirect()->back()->withErrors(['email' => 'У вас нет прав администратора.']);
             }
