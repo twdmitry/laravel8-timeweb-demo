@@ -31,7 +31,7 @@
                         <div class="card-body">
                             <h5 class="card-title">{{ $item->title }}</h5>
                             <p class="card-text">{{ Str::limit($item->content, 100) }}</p>
-                            
+                            <span class="text-muted news-date">{{ $item->created_at->format('d.m.Y') }}</span>
                         </div>
                     </div>
                 @endforeach
@@ -77,6 +77,13 @@
     <style>
         .page-index .card-body {
             background-color: #f8f9fa;
+        }
+        .page-index .news-date {
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+            margin-top: 10px;
+            font-size: 0.9em;
         }
     </style>
 @endsection
