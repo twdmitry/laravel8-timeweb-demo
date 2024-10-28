@@ -47,7 +47,7 @@
     <div class="row">
         <div class="col-md-4">
             <div class="card mb-5">
-                <img src="https://picsum.photos/150/200?random=1" class="card-img-top" alt="Команда 1">
+                <img src="https://loremflickr.com/150/200" class="card-img-top" alt="Команда 1">
                 <div class="card-body">
                     <h5 class="card-title">Иван Иванов</h5>
                     <p class="card-text">Генеральный директор и основатель. Имеет более 10 лет опыта в экологической сфере.</p>
@@ -56,7 +56,7 @@
         </div>
         <div class="col-md-4">
             <div class="card mb-5">
-                <img src="https://picsum.photos/150/200?random=2" class="card-img-top" alt="Команда 2">
+                <img src="https://loremflickr.com/150/200" class="card-img-top" alt="Команда 2">
                 <div class="card-body">
                     <h5 class="card-title">Анна Петрова</h5>
                     <p class="card-text">Менеджер по продажам. Обладает выдающимися навыками общения и продаж.</p>
@@ -65,7 +65,7 @@
         </div>
         <div class="col-md-4">
             <div class="card mb-4">
-                <img src="https://picsum.photos/150/200?random=3" class="card-img-top" alt="Команда 3">
+                <img src="https://loremflickr.com/150/200" class="card-img-top" alt="Команда 3">
                 <div class="card-body">
                     <h5 class="card-title">Сергей Сергеев</h5>
                     <p class="card-text">Специалист по экологическим продуктам. Стремится к внедрению новых идей в бизнес.</p>
