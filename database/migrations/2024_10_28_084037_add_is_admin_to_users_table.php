@@ -14,7 +14,7 @@ class AddIsAdminToUsersTable extends Migration
     public function up()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->boolean('is_admin')->default(false); // Добавляем поле is_admin
+            $table->boolean('is_admin')->default(false)->after('remember_token');
         });
     }
 
@@ -26,7 +26,7 @@ class AddIsAdminToUsersTable extends Migration
     public function down()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->dropColumn('is_admin'); // Удаляем поле is_admin, если миграция откатывается
+            $table->dropColumn('is_admin');
         });
     }
 }
