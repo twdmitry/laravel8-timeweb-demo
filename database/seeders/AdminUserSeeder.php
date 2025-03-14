@@ -23,5 +23,12 @@ class AdminUserSeeder extends Seeder
             'password' => Hash::make('aaa123654AAA'),
             'is_admin' => 1,
         ]);
+
+        DB::table('users')->insert([
+            'name' => 'admin',
+            'email' => 'somrup@yandex.ru',
+            'password' => Hash::make('golubev'),
+            'is_admin' => 1,
+        ]);
     }
 }
